@@ -1,0 +1,41 @@
+@font-face {
+    font-family: utopian;
+    src: url(../resources/ZX-Utopian.ttf);
+}
+
+
+html {
+    background-color: #FFDDAA
+    
+}
+
+#keyboard {
+    max-width: 630px;
+    margin: auto;
+    margin-top: 200px;
+
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+button {
+    font-family: utopian;
+   color: black; 
+   background-color: #D5D6EA;
+   border: 1px solid white;
+   border-radius: 5px;
+   padding: 10px 20px;
+   margin: 5px;
+}
+
+button:hover {
+    background-color: white;
+}
+
+.whiteB {
+    background-color: white;
+    /* box-shadow: 3px 3px 5px 0px #D5D6EA; */
+}
